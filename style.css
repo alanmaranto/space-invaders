@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
   background-color: black;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 h3 {
   color: #fff;
@@ -45,6 +45,14 @@ h3 {
 }
 
 .gratitude {
+  color: rgba(185, 31, 165, 0.603);
+  padding: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  text-decoration: none;
+}
+
+.thanks {
   color: rgba(255, 255, 255, 0.603);
   padding: 10px;
 }
